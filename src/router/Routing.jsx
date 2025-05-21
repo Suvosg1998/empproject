@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "../Layouts/Header";
-import CreateDepartment from "../component/Department/createdepartment";
+import CreateDepartment from "../component/Department/CreateDepartment";
 import Getdepartment from "../component/Department/Getdepartment";
 import EditDepartment from "../component/Department/EditDepartment";
 import CreateEmployee from "../component/Employee/CreateEmployee";
