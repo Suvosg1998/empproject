@@ -84,7 +84,7 @@ const handleDelete = async (id) => {
           }}
         >
           <Typography variant="h4" fontWeight="bold" color="primary">
-            Department List
+            Employee List
           </Typography>
           <Button
             variant="contained"
@@ -93,7 +93,7 @@ const handleDelete = async (id) => {
             sx={{ borderRadius: 2, textTransform: 'none', px: 3 }}
             onClick={() => navigate('/createemp')}
           >
-            Add Department
+            Add Employee
           </Button>
         </Box>
 

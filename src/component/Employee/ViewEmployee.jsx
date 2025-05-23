@@ -42,8 +42,30 @@ const ViewEmployee = () => {
   }
 
   return (
-    <Box sx={{ p: 3, maxWidth: 800, mx: 'auto' }}>
-      <Paper sx={{ p: 4, borderRadius: 3, boxShadow: 3 }}>
+    <Box
+          sx={{
+            width: '100vw',
+            minHeight: '100vh',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            bgcolor: '#f0f2f5',
+            px: 2,
+            overflowX: 'hidden', // Prevent horizontal scroll
+            boxSizing: 'border-box',
+          }}
+        >
+          <Paper
+            elevation={3}
+            sx={{
+              width: '100%',
+              maxWidth: '1200px',
+              borderRadius: 3,
+              p: 4,
+              bgcolor: '#ffffff',
+              overflowX: 'auto', // optional safety for inner elements
+            }}
+          >
         <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 3 }}>
           <Typography variant="h5" fontWeight="bold" color="primary">
             Employee Details
